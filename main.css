@@ -1,0 +1,426 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200;300;400;600;700;900&display=swap');
+
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+ul,
+li,
+a {
+    text-decoration: none;
+    list-style: none;
+    display: flex;
+    padding: 0;
+    cursor: pointer;
+    color: black;
+}
+
+.container {
+    width: 1366px;
+    margin: 0 auto;
+}
+
+
+header {
+    width: 100%;
+    height: 56px;
+}
+
+.logo {
+    width: 118px;
+    height: 32px;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav ul li {
+    align-items: center;
+    gap: 12px;
+}
+
+nav ul {
+    gap: 78px;
+}
+
+nav ul li i {
+    margin-top: 5px;
+}
+
+.first-sec {
+    width: 100%;
+    height: 800px;
+    background-color: #F0F0F0;
+}
+
+.f-main {
+    display: flex;
+}
+
+.f-text {
+    width: 50%;
+    padding: 170px 0;
+    /* padding-right: 100px; */
+}
+
+.f-text h2 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 130%;
+}
+
+.f-text p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 130%;
+}
+
+.f-btn {
+    padding-top: 28px;
+}
+
+
+.f-btn button {
+    width: 216px;
+    height: 64px;
+    font-size: 18px;
+    color: white;
+    background-color: red;
+    border: 1px solid red;
+    align-items: center;
+    text-align: center;
+}
+
+.f-btn button:nth-child(2) {
+    color: black;
+    background-color: transparent;
+    border: 1px solid black;
+    margin-left: 48px;
+}
+
+/* FIRST SEECTION MAIN IMAGE  */
+
+.f-img {
+    width: 50%;
+
+}
+
+.f-img img {
+    margin: 0 auto;
+    margin-top: 87px;
+    margin-left: 220px;
+
+}
+
+/* ABOUT SECTION */
+
+.about {
+    z-index: -1;
+    width: 100%;
+    height: 582px;
+    background-color: bisque;
+    display: flex;
+    position: relative;
+}
+
+.about-text {
+    width: 50%;
+    height: 100%;
+    color: white;
+    background-color: #161A2B;
+    border-bottom: 8px solid red;
+}
+
+
+.about-img {
+    width: 50%;
+}
+
+.about-img {
+    width: 50%;
+    height: 100%;
+    background-image: url(/img/background__image.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.about-2 {
+    z-index: 1;
+    margin-top: -582px;
+}
+
+.about-m2 {
+    display: flex;
+}
+
+.a-text {
+    width: 50%;
+    color: white;
+    padding: 70px 0;
+
+}
+
+.a-text h2 {
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 150%;
+}
+
+.a-text p {
+    width: 432px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    margin-top: 30px;
+}
+
+.a-text ul {
+    display: block;
+}
+
+.a-text ul li {
+    color: white;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 150%;
+}
+
+.about-boxs {
+    width: 50%;
+    height: 582px;
+}
+
+.a-boxs {
+    padding: 70px;
+    padding-left: 200px;
+    padding-right: 0;
+}
+
+.boxs {
+    background-color: #161A2B;
+    color: white;
+    display: inline-block;
+    position: relative;
+    width: 208px;
+    height: 208px;
+    margin: 10px;
+}
+
+.red-line {
+    width: 2px;
+    height: 104px;
+    background-color: red;
+    margin-left: 24px;
+}
+
+.box-text {
+    color: white;
+    position: absolute;
+    margin-top: 70px;
+    margin-left: 10px;
+}
+
+.box-text p,
+h2 {
+    font-size: 36px;
+    padding: 0;
+    margin: 0;
+}
+
+.box-text p {
+    font-size: 16px;
+
+}
+
+/* SECTION -3- */
+
+.more-info {
+    width: 100%;
+    height: 990px;
+    margin-top: 8px;
+    background-color: #F0F0F0;
+}
+
+.more-main {
+    padding-top: 80px;
+}
+
+.m-solagen {
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 150%;
+    margin-left: 75px;
+}
+
+.m-box {
+    display: inline-block;
+}
+
+.m-box {
+    width: 576px;
+    height: 340px;
+    background-color: white;
+    margin-top: 58px;
+    margin-right: 58px;
+}
+
+.m-box:nth-child(even) {
+    margin-right: 0;
+}
+
+.more-main-box {
+    margin-left: 75px;
+}
+
+.m-box-top,
+.m-box-bottom {
+    display: flex;
+    position: absolute;
+}
+
+.mbt-left {
+    width: 112px;
+    height: 112px;
+    background-color: #161A2B;
+}
+
+.mbt-left img {
+    margin: 35px;
+}
+
+.mbt-right {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 130%;
+}
+
+.mbt-right p {
+    margin-top: 35px;
+    margin-left: 48px;
+}
+
+.m-box-bottom {
+    margin-top: 110px;
+    margin-left: 40px;
+}
+
+.m-box-bottom p {
+    width: 492px;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 150%;
+}
+
+.br-line {
+    width: 360px;
+    height: 8px;
+    background-color: red;
+    margin-top: 332px;
+    margin-left: 216px;
+}
+
+/* FORM SECTION */
+
+.form {
+    width: 100%;
+    height: 993px;
+    background-image: url(/img/daniel-larionov-iYYf3JZEUPI-unsplash\ 1.png);
+    background-size: cover;
+}
+
+.filter {
+    position: absolute;
+    width: 100%;
+    height: 993px;
+    background-color: rgba(22, 26, 43, 0.5);
+    ;
+}
+
+.form-solagen {
+    padding-top: 80px;
+    margin-bottom: 40px;
+}
+
+.form-solagen h2 {
+    color: white;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 150%;
+}
+
+.form-body {
+    display: flex;
+}
+
+.form-text {
+    width: 45%;
+    height: 640px;
+    background-color: white;
+    padding: 20px 40px;
+
+}
+
+.form-text p {
+    /* width: 450px; */
+    margin-top: 20px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+}
+
+.form-sum {
+    color: white;
+    width: 50%;
+    background-color: #161A2B;
+    display: flex;
+    flex-direction: column;
+    /* main-axis vertical */
+    justify-content: center;
+    /* main-axis alignment */
+    align-items: flex-start;
+    padding-left: 130px;
+    gap: 40px;
+}
+
+.form-sum h2 {
+    color: white;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 130%;
+}
+
+input{
+    color: white;
+}
+
+.form-sum button {
+    color: white;
+    width: 336px;
+    height: 56px;
+    border: 2px solid red;
+    background-color: transparent;
+    margin-left: 60px;
+    margin-top: 20px;
+    transition: all 0.4s ease;
+    cursor: pointer;
+}
+.form-sum button:hover {
+    background-color: red;
+}
+
+
+
+.change-style {
+    width: 464px;
+    height: 50px;
+    background-color: transparent;
+    border: 0px;
+    border-bottom: 1px solid grey;
+}
